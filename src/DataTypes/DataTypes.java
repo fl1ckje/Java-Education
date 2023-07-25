@@ -46,7 +46,5 @@ public class DataTypes {
                 """;
 
         System.out.println(multilineTextBlock);
-
-
     }
 }
