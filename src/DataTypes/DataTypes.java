@@ -1,5 +1,7 @@
 package DataTypes;
 
+import static java.lang.System.out;
+
 public class DataTypes {
     public DataTypes() {
         boolean isActive = true;
@@ -13,28 +15,28 @@ public class DataTypes {
         float f = 3.14f;
         char g = 'g';
 
-        System.out.println(isActive);
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
+        out.println(isActive);
+        out.println(a);
+        out.println(b);
+        out.println(c);
+        out.println(d);
+        out.println(e);
+        out.println(f);
+        out.println(g);
 
         char fSymbol = 102;
         String text = "Hello...";
 
-        System.out.println(fSymbol);
-        System.out.println(text);
+        out.println(fSymbol);
+        out.println(text);
 
         String textWithNewLine = "\nWorld!";
 
-        System.out.println(textWithNewLine);
+        out.println(textWithNewLine);
 
         String sumOfStrings = "First word!\n" + "Second word!\n" + "Third word!";
 
-        System.out.println(sumOfStrings);
+        out.println(sumOfStrings);
 
         String multilineTextBlock = """
                 My list of languages, which I learned to junior level:
@@ -45,6 +47,6 @@ public class DataTypes {
                 [*] Rust
                 """;
 
-        System.out.println(multilineTextBlock);
+        out.println(multilineTextBlock);
     }
 }
