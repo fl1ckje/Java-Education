@@ -1,4 +1,4 @@
-package ConsoleInput;
+package Basics.ConsoleInput;
 
 import static java.lang.System.out;
 import static java.lang.System.in;

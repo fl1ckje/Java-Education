@@ -1,4 +1,4 @@
-package ConsoleOutput;
+package Basics.ConsoleOutput;
 
 import static java.lang.System.out;
 
